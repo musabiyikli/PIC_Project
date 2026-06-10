@@ -1,0 +1,10 @@
+TRISB=0         'PORTB çýkýþ
+PORTB.0=0       'Ýlk baþta PORTB.0 Ledi sönük
+X:
+PORTB.0=1       'Ledi yak
+PAUSE 500       '500 ms bekle
+PORTB.0=0       'Ledi söndür
+PAUSE 500       '500 ms bekle
+GOTO X
+END
+
